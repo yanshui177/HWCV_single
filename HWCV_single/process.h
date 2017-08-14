@@ -59,6 +59,7 @@ IplImage* Cjbsb(IplImage* img);
 IplImage* Cjbsb2(IplImage* img);
 
 
+
 /*
 功能：计算图像的特征
 
