@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <ExecutablePath>D:\programe files\OpenCV100\bin;$(ExecutablePath)</ExecutablePath>
+    <IncludePath>D:\programe files\OpenCV100\cv\include;D:\programe files\OpenCV100\cvaux\include;D:\programe files\OpenCV100\cxcore\include;D:\programe files\OpenCV100\ml\include;D:\programe files\OpenCV100\otherlibs\cvcam\include;D:\programe files\OpenCV100\otherlibs\highgui;D:\programe files\OpenCV100;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\programe files\OpenCV100\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>cxcore.lib;cv.lib;ml.lib;cvaux.lib;highgui.lib;cvcam.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

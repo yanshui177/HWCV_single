@@ -1,0 +1,31 @@
+﻿生成启动时间为 2017/8/14 14:05:22。
+     1>项目“F:\文档\Visual Studio 2013\Projects\HWCV_single\HWCV_single\HWCV_single.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\programe files\vs2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp process.cpp
+         main.cpp
+     1>d:\programe files\opencv100\cv\include\cvcompat.h(784): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\文档\visual studio 2013\projects\hwcv_single\hwcv_single\main.h(21): warning C4305: “初始化”: 从“double”到“float”截断
+     1>main.cpp(122): warning C4018: “<”: 有符号/无符号不匹配
+     1>main.cpp(133): warning C4018: “<”: 有符号/无符号不匹配
+     1>main.cpp(140): warning C4018: “<”: 有符号/无符号不匹配
+     1>main.cpp(147): warning C4244: “参数”: 从“double”转换到“const float”，可能丢失数据
+     1>main.cpp(157): warning C4018: “<”: 有符号/无符号不匹配
+     1>main.cpp(161): warning C4018: “<”: 有符号/无符号不匹配
+         process.cpp
+     1>d:\programe files\opencv100\cv\include\cvcompat.h(784): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>process.cpp(140): warning C4101: “i”: 未引用的局部变量
+     1>process.cpp(140): warning C4101: “j”: 未引用的局部变量
+     1>process.cpp(179): warning C4309: “=”: 截断常量值
+       Link:
+         D:\programe files\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\文档\Visual Studio 2013\Projects\HWCV_single\Release\HWCV_single.exe" /INCREMENTAL:NO /NOLOGO cxcore.lib cv.lib ml.lib cvaux.lib highgui.lib cvcam.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\文档\Visual Studio 2013\Projects\HWCV_single\Release\HWCV_single.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\文档\Visual Studio 2013\Projects\HWCV_single\Release\HWCV_single.lib" /MACHINE:X86 /SAFESEH Release\path.obj
+         Release\process.obj
+         Release\StdAfx.obj
+         Release\main.obj
+         正在生成代码
+         已完成代码的生成
+         HWCV_single.vcxproj -> F:\文档\Visual Studio 2013\Projects\HWCV_single\Release\HWCV_single.exe
+     1>已完成生成项目“F:\文档\Visual Studio 2013\Projects\HWCV_single\HWCV_single\HWCV_single.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.25
